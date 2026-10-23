@@ -7,7 +7,10 @@
 当前导出为 **仅使用人脸的版本**：人体输入固定为空白。
 
 ## 目录说明
-
+models：从原项目中下载的 MiVOLO、YOLO 权重
+model_onnx：.pth 转换为 .onnx 后的模型
+model_rknn：.onnx 转换为 .rknn 后的模型
+以上模型均可在 Releases V1.0.0 中进行下载
 ```text
 Mivolo_age_gender/
 ├── README.md
