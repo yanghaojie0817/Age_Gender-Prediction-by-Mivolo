@@ -1,0 +1,44 @@
+# Keep data/model directories through .gitkeep; ignore all actual contents.
+**/input_images/*
+!**/input_images/.gitkeep
+**/output_images/*
+!**/output_images/.gitkeep
+**/model_onnx/*
+!**/model_onnx/.gitkeep
+**/model_rknn/*
+!**/model_rknn/.gitkeep
+**/models/*
+!**/models/.gitkeep
+
+# Additional experiment output folders.
+**/output_images_*/
+
+# Model binaries, wheels and compiler intermediates outside those folders.
+*.onnx
+*.rknn
+*.pt
+*.pth
+*.pth.tar
+*.whl
+core
+core.[0-9]*
+
+# Python caches, environments, logs and build output.
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.log
+
+# Editor and OS files.
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+desktop.ini

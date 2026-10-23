@@ -1,0 +1,18 @@
+# Windows/Linux Python environment for ONNX export and batch_test.py.
+# Install RKNN-Toolkit2 separately in the supported Linux conversion environment.
+numpy
+opencv-python
+torch
+torchvision
+scipy
+onnx
+onnxsim
+onnxruntime
+omegaconf
+ultralytics==8.1.0
+timm==0.8.13.dev0
+huggingface_hub
+lapx>=0.5.2
+tqdm
+pandas
+Pillow
